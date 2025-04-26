@@ -155,6 +155,11 @@ There are multiple ways to interact with your agent:
     ```shell
     adk web
     ```
+    !!!note "User custom database url for session service"
+
+        If you want to use a custom databse to store the session, you can
+        pass in the url with `adk web --session_db_url=...` instead of the
+        default in-momery session service.
 
     **Step 1:** Open the URL provided (usually `http://localhost:8000` or
     `http://127.0.0.1:8000`) directly in your browser.
