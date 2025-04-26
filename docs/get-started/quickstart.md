@@ -155,9 +155,9 @@ There are multiple ways to interact with your agent:
     ```shell
     adk web
     ```
-    !!!note "User custom database url for session service"
+    !!!note "Use custom database url for session service"
 
-        If you want to use a custom databse to store the session, you can
+        If you want to use a custom database to store the sessions, you can
         pass in the url with `adk web --session_db_url=...` instead of the
         default in-momery session service.
 
